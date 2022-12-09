@@ -1,0 +1,37 @@
+.projects {
+    color: #D1E8E2;
+    margin-top: 15px;
+  }
+  .row {
+    margin: 0 auto;
+    height: 480px;
+    max-width: 720px;
+    border: 2px solid #D1E8E2;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .row div {
+    width: 345px;
+    vertical-align: top;
+  }
+  
+  .leftItem {
+    margin-right: 25px;
+  }
+  
+  #last-row {
+    align-content: center
+  }
+  
+  .row img {
+    max-width: 350px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  span {
+    font-weight: bold;
+  }

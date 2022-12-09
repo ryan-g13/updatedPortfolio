@@ -1,0 +1,43 @@
+.landing {
+    height: 480px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../assets/solarHeroImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .heroText {
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25em;
+    color: #FFCB9A;
+  }
+  .languages {
+    text-align: center;
+    margin: 0 auto;
+  }
+  table {
+    margin: 0 auto;
+    border: 2px solid #D1E8E2;
+    padding: 10px;
+  }
+  th {
+    // border: 1px dotted orange;
+    padding-bottom: 10px;
+  }
+  tbody th {
+    padding-top: 5px;
+  }
+  
+  td {
+    border: 1px solid #D1E8E2;
+    color: #FFCB9A;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFCB9A;
+  }

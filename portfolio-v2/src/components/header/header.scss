@@ -1,0 +1,50 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    color: #D1E8E2;
+    height: 84px;
+  }
+  
+  .logo-container {
+    display: inline;
+  }
+  
+  .logo-container img {
+    max-width: 300px;
+    max-height: 84px;
+  }
+  
+  .nav-links {
+    padding: 15px 45px;
+    background-color: #2C3531;
+    width: 100%;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #116466,
+  }
+  
+  .nav-links ul li {
+    padding-right: 5%;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    margin: 15px; 
+    color: #D1E8E2;
+  }
+  
+  .highlighted {
+    background-color: #FFCB9A;
+  }
+  
+  /* needs to be dynamic to window size*/
