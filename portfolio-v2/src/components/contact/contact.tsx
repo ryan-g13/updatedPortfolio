@@ -1,9 +1,12 @@
 import React from 'react';
-// import { IndexLink } from 'react-router-dom';
-import profilePicture from '../../assets/Profile.jpg';
+import './contact.scss';
+import profilePicture from '../../assets/DoggoProfilePicture.jpg';
 import motorcycle from '../../assets/motorcycle.jpg';
 import flower from '../../assets/flower.jpg';
-import './contact.scss';
+import zionHike from '../../assets/ZionHike.jpg'
+import machuPicchu from '../../assets/machuPicchu.jpg'
+import huinaPicchu from '../../assets/huinaPicchu.jpg'
+import rainbowMountain from '../../assets/rainbowMountain.jpg'
 import GITHUBLOGO from '../../assets/GitHub-Mark-Light-32px.png';
 import LINKEDINLOGO from '../../assets/In-2C-34px-R.png';
 
@@ -18,7 +21,14 @@ export default class Contact extends React.Component {
           <img className='profileImage' src={motorcycle} alt="Motorcycle" />
           <img className='profileImage' id='middle' src={profilePicture} alt="Ryan Groesch" />
           <img className='profileImage' src={flower} alt="Flower" />
+          <img className='profileImage' src={zionHike} alt="Zion Hike" />
         </div>
+        <div className="flexbox">
+          <img className='profileImage' src={rainbowMountain} alt="Rainbow Mountain" />
+          <img className='profileImage' id='middle' src={machuPicchu} alt="Machu Picchu" />
+          <img className='profileImage' src={huinaPicchu} alt="Huina Picchu" />
+        </div>
+        <p>My dog Benny is 2 and has loads of energy and attitude. I love to travel to new places Zion National Park(right first row) and Machu Picchu (second row)</p>
         <p>I have a background in technology, I started at T-Mobile as a tier 3 tech support and have been with Google Maps, and Amazon in varying roles. While at Amazon I discovered HTML, CSS and writing SQL queries to derive metrics and identify HVTs, this experience has helped shape me into the programmer I am today.</p> 
         <h2>Visit my profile and see my work.</h2>
         <ul>
