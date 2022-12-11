@@ -1,36 +1,41 @@
-import React from 'react';
-// import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import ROUTES from '../../routes';
 import RGLOGO from '../../assets/RG-Logo-Dribble-Denis-Znakar.png';
 
 import './header.scss';
 
-// TODO: Hi Lighted nav bar tabs - currently a functional component 
+const Header = () => {
+  const [selected, setSelected] = useState("");
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <header className='nav-bar'>
-        <div className='logo-container'>
-          <a href={ROUTES.LANDING} data-nav='home'><img src={RGLOGO} alt='R G Logo'/></a>
-        </div>
-        <div className='nav-links'>
-          <ul>
-            <li>
-              <a href={ROUTES.LANDING} className="hilighted" data-nav="home">HOME</a>
-            </li>
-            <li>
-              <a href={ROUTES.PROJECTS} data-nav="projects">PROJECTS</a>
-            </li>
-            <li>
-              <a href={ROUTES.CONTACT} data-nav="contact">CONTACT</a>
-            </li>
-            <li>
-              <a href={ROUTES.RESUME} data-nav="resume">RESUME</a>
-            </li>
-          </ul>
-        </div>
-      </header>
-    );
-  }
+  useEffect(() => {
+    setSelected(window.location.pathname);
+  });
+
+  return (
+    
+    <header className='nav-bar'>
+      <div className='logo-container'>
+        <a href={ROUTES.LANDING} data-nav='home'><img src={RGLOGO} alt='R G Logo'/></a>
+      </div>
+      <div className='nav-links'>
+        <ul>
+          <li>
+            <a href={ROUTES.LANDING} className={selected === '/'? 'highlighted' : undefined} data-nav="home">HOME</a>
+          </li>
+          <li>
+            <a href={ROUTES.PROJECTS} className={selected === '/projects' ? "highlighted": undefined} data-nav="projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href={ROUTES.CONTACT} className={selected === '/contact' ? "highlighted": undefined} data-nav="contact">CONTACT</a>
+          </li>
+          <li>
+            <a href={ROUTES.RESUME} className={selected === '/resume' ? "highlighted": undefined} data-nav="resume">RESUME</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  );
 }
+
+
+export default Header;

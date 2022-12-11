@@ -35,16 +35,15 @@
   
   .nav-links ul li {
     padding-right: 5%;
-  }
+    .highlighted {
+        color: #FFCB9A;
+    } 
+  } 
   
   .nav-links ul li a {
     text-decoration: none;
     margin: 15px; 
     color: #D1E8E2;
   }
-  
-  .highlighted {
-    background-color: #FFCB9A;
-  }
-  
+    
   /* needs to be dynamic to window size*/
