@@ -1,4 +1,3 @@
-import React from 'react';
 import eventUsLogo from '../../assets/eventUs-logo.jpg';
 import pubHubLogo from '../../assets/pubhub-small.png';
 import playAndRestLogo from '../../assets/play&rest-logo.jpg';
@@ -9,8 +8,7 @@ import './projects.scss';
 
 // TODO: Center last row's singular object or add another project. 
 
-export default class Projects extends React.Component {
-  render() {
+const Projects = () => {
     return (
       <div className='projects' >
         <div className='row' >
@@ -99,5 +97,6 @@ export default class Projects extends React.Component {
         </div>
       </div>
     );
-  }
 }
+
+export default Projects;

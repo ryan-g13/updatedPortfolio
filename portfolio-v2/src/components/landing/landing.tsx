@@ -1,11 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './landing.scss';
 
 import ROUTES from '../../routes';
 
-export default class Landing extends React.Component {
-  render() {
+const Landing = () => {
     return (
     <div>
       <div className='landing'>
@@ -70,5 +68,7 @@ export default class Landing extends React.Component {
       </div>
     </div>
     );
-  }
 }
+
+
+export default Landing;
