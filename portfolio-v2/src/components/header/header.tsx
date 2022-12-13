@@ -9,7 +9,7 @@ const Header = () => {
 
   useEffect(() => {
     setSelected(window.location.pathname);
-  });
+  },[]);
 
   return (
     

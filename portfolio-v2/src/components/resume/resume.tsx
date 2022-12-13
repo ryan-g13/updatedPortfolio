@@ -1,15 +1,15 @@
 import {useState} from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
 import './resume.scss';
-// @ts-expect-error:
-import * as resume from '../../assets/Ryan_Groesch_SDE_Resume';
+import resume from '../../assets/Ryan_Groesch_SDE_Resume.pdf';
 
 const Resume = () => {
-  const [numPages, setNumPages] = useState(0);
+  const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
-  const onDocumentLoad = ( numPages:number ) => {
+  const onDocumentLoad = ( {numPages}:any ) => {
     setNumPages(numPages);
+    setPageNumber(1);
   }
 
   const handleNext = () => {
@@ -20,7 +20,7 @@ const Resume = () => {
     setPageNumber(pageNumber - 1);
   }
 
-  const renderPagination = (pageNumber:number, numPages:number) => {
+  const renderPagination = (pageNumber:number, numPages:any) => {
     let previousButton = <button className='small-button fancy-link resume-btn' onClick={handlePrevious}>Previous</button>;
     if (pageNumber === 1) {
       previousButton = <button className='small-button resume-btn' disabled={true} onClick={handlePrevious}>Previous</button>;
@@ -52,9 +52,10 @@ const Resume = () => {
       <div className="resume-pdf">
         <Document 
           file={resume}
-          // @ts-expect-error:
-          onLoadSuccess={onDocumentLoad} className="viewable-resume"
-          width='720'> 
+          onLoadSuccess={onDocumentLoad} 
+          className="viewable-resume"
+          renderMode="svg"
+          > 
           <Page pageNumber={pageNumber} />
         </Document>
       </div>

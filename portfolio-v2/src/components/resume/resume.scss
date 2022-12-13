@@ -2,15 +2,22 @@
     color: #D1E8E2;
     margin: 0 auto;
   }
+
+  div.react-pdf__Page__textContent.textLayer {
+    display: none;
+  }
+  div.react-pdf__Page__annotations.annotationLayer {
+    display: none;
+  }
   
   .resume h1, p {
     text-align: center;
   }
   
   .resume-pdf {
-    margin: 0 auto;
-    display: block;
-    max-width: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .react-pdf__Page__canvas {

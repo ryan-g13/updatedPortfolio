@@ -3,7 +3,7 @@ import ROUTES from '../../routes';
 
 const UrlRedirect = () => {
   let preRedirectUrl = null;
-  const { pathname } = location;
+  const { pathname } = window.location;
   
   if (
     pathname !== ROUTES.LANDING 
