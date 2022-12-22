@@ -2,7 +2,7 @@
   "name": "portfolio-v2",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://ryan-g13.github.io/updatedPortfolio",
+  "homepage": "https://ryan-g13.github.io/updatedPortfolio/portfolio-v2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
