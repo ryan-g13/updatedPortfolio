@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/updatedPortfolio/portfolio-v2/static/css/main.ea0a55b2.css",
+    "main.js": "/updatedPortfolio/portfolio-v2/static/js/main.c0a159dd.js",
+    "static/js/787.d9a20797.chunk.js": "/updatedPortfolio/portfolio-v2/static/js/787.d9a20797.chunk.js",
+    "static/media/motorcycle.jpg": "/updatedPortfolio/portfolio-v2/static/media/motorcycle.a537b057c9244620e334.jpg",
+    "static/media/flower.jpg": "/updatedPortfolio/portfolio-v2/static/media/flower.29f0f888d8ffa3a2f67e.jpg",
+    "static/media/machuPicchu.jpg": "/updatedPortfolio/portfolio-v2/static/media/machuPicchu.300609ff98b8fbdb7f22.jpg",
+    "static/media/pdf.worker.js": "/updatedPortfolio/portfolio-v2/static/media/pdf.worker.38afb735fb36dd56c55d.js",
+    "static/media/huinaPicchu.jpg": "/updatedPortfolio/portfolio-v2/static/media/huinaPicchu.5b74c214256e7f718310.jpg",
+    "static/media/rainbowMountain.jpg": "/updatedPortfolio/portfolio-v2/static/media/rainbowMountain.f1eba4e48e5d4962110e.jpg",
+    "static/media/play&rest-logo.jpg": "/updatedPortfolio/portfolio-v2/static/media/play&rest-logo.1a7b9220ec910e1a7d20.jpg",
+    "static/media/solarHeroImage.jpg": "/updatedPortfolio/portfolio-v2/static/media/solarHeroImage.061630815151d14a858b.jpg",
+    "static/media/DoggoProfilePicture.jpg": "/updatedPortfolio/portfolio-v2/static/media/DoggoProfilePicture.bb2946faaad75b57e885.jpg",
+    "static/media/ZionHike.jpg": "/updatedPortfolio/portfolio-v2/static/media/ZionHike.f40b9c2fbd380c5493c7.jpg",
+    "static/media/Ryan_Groesch_SDE_Resume.pdf": "/updatedPortfolio/portfolio-v2/static/media/Ryan_Groesch_SDE_Resume.b893e6a29075576dfc2d.pdf",
+    "static/media/pubhub-small.png": "/updatedPortfolio/portfolio-v2/static/media/pubhub-small.02af21a46e9eb0c1ff60.png",
+    "static/media/eventUs-logo.jpg": "/updatedPortfolio/portfolio-v2/static/media/eventUs-logo.2c2c8356d4eb99c6125d.jpg",
+    "index.html": "/updatedPortfolio/portfolio-v2/index.html",
+    "main.ea0a55b2.css.map": "/updatedPortfolio/portfolio-v2/static/css/main.ea0a55b2.css.map",
+    "main.c0a159dd.js.map": "/updatedPortfolio/portfolio-v2/static/js/main.c0a159dd.js.map",
+    "787.d9a20797.chunk.js.map": "/updatedPortfolio/portfolio-v2/static/js/787.d9a20797.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0a55b2.css",
+    "static/js/main.c0a159dd.js"
+  ]
+}
