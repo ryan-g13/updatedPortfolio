@@ -1,3 +1,7 @@
+# updatedPortfolio
+Portfolio - (WIP V2) - hi-lighting my work and education experience, upgrading to React 16+ using hooks and Typescript
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
